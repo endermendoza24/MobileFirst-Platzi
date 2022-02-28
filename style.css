@@ -108,3 +108,141 @@ main{
     max-width: 900px;
     margin: 0 auto;
 }
+
+.main-exchange-container .backgroundImg{
+    width: 200px;
+    height: 200px;
+    margin: 0 auto;
+    margin-bottom: 50px;
+    background-image: url('./assets/img/Bitcoin.svg');
+    background-size: cover;
+    background-position: center;
+    background-repeat:no-repeat ;
+}.main-exchange-container h2{
+    margin-bottom: 30px;
+    font-size: 2.4rem;
+    font-weight: bold;
+    line-height: 2.6rem;
+    color: var(--black);    
+}
+
+.main-exchange-container p{
+    margin-bottom: 30px;
+    font-size: 1.4rem;
+    font-weight: 500;
+    line-height: 1.6rem;
+    color: #757575;
+}
+
+.main-currency-table, .commisions-table-container{
+    width: 70%;
+    min-width: 235px;
+    max-width: 500px;
+    height: 360px;
+    margin: 0 auto;
+    font-family: "Inter",sans-serif;
+}
+
+
+/*quedo en el miniuto 1:56 del curso de rsponsive web design de Platzi
+
+*/
+.main-currency-table .currency-table--title{
+    margin-bottom: 15px;
+    font-size: 1.8rem;
+    font-weight: bold;
+    line-height: 2.3rem;
+    color: var(--bitcoin-orange);
+
+}
+.currency-table--container{
+    width: 90%;
+    min-width: 230px;
+    max-width: 300px;
+    height:  250px;
+    margin: 0 auto;
+    box-shadow: 5px 5px 15px rgba(89, 73, 30, 0.16);
+}
+.currency-table--container table{
+    width: 100%;
+    height: 100%;
+}
+.currency-table--container td{
+    width: 50%;
+    font-size: 1.6rem;
+    font-weight: 500;
+    line-height: 1.9rem;
+    color: var(--grey);
+    background-color: var(--just-white);
+
+}
+.currency-table--container .table__top-left{
+    border-radius: 15px 0 0 0;
+}
+.currency-table--container .table__top-right{
+    border-radius: 0 15px 0 0;
+}
+
+
+
+
+
+
+
+/*Segunda tabla*/
+.commisions-table-container .commisions-title{
+    margin-bottom: 15px;
+    font-size: 1.8rem;
+    font-weight: bold;
+    line-height: 2.3rem;
+    color: var(--secondary-blue);    
+}
+
+.commisions-container{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 3px;
+    width: 90%;
+    min-width: 230px;
+    max-width: 300px;
+    height: 250px;
+    margin: 0 auto;
+    box-shadow: 5px 5px 15px rgba(89, 73, 30, 0.16);
+    color: var(--grey);
+
+}
+.commisions-container h3, .commisions-container p{
+    background-color: var(--just-white);
+    width: 100%;
+    height: 100%;
+    font-size: 1.6rem;
+    font-weight: 500;
+    display: flex;    
+    align-items: center;
+    justify-content: center;
+}
+.commisions-table-date{
+    background-color: rgb(126, 186, 255);
+    width: 80%;
+    min-width: 230px;
+    max-width: 300px;
+    margin: 0 auto;
+    
+    border-radius: 20px;
+}
+.commisions-table-date h3,  .commisions-table-date p{
+    padding: 6px;
+}
+.commisions-container h3:nth-child(1){
+    border-top-left-radius: 10px;
+}
+.commisions-container h3:nth-child(7){
+    border-bottom-left-radius: 10px;
+}
+.commisions-container p:nth-child(2){
+    border-top-right-radius: 10px;
+}
+.commisions-container p:nth-child(8){
+    border-bottom-right-radius: 10px;
+    
+}
